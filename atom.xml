@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>李木子的博客</title>
+  <icon>http://example.com/icon.png</icon>
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-02-15T04:06:55.776Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>muzinian</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test mathjax</title>
+    <link href="http://example.com/2021/02/13/test-mathjax/"/>
+    <id>http://example.com/2021/02/13/test-mathjax/</id>
+    <published>2021-02-13T02:52:35.000Z</published>
+    <updated>2021-02-15T04:06:55.776Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;基于数组的list&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#基于数组的list&quot;&gt;&lt;/a&gt; 基于数组的List&lt;/h2&gt;
+&lt;p&gt;本章，我们将会学习List和Queue接口的实现，底层数据是存在数组中的，这个数组也叫做 &lt;em&gt;支撑数组(backing array)&lt;/em&gt;。下表总结了本章出现的数据结构各个操作的运行时间&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;get(i)/set(i,x)&lt;/th&gt;
+&lt;th&gt;add(i,x)/remove(i)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;ArrayStack&lt;/td&gt;
+&lt;td&gt;O(1)&lt;/td&gt;
+&lt;td&gt;O(n-i)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ArrayDeque&lt;/td&gt;
+&lt;td&gt;O(1)&lt;/td&gt;
+&lt;td&gt;O(min{i,n-i})&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DualArrayDeque&lt;/td&gt;
+&lt;td&gt;O(1)&lt;/td&gt;
+&lt;td&gt;O(min{i,n-i})&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;RootishArrayStack&lt;/td&gt;
+&lt;td&gt;O(1)&lt;/td&gt;
+&lt;td&gt;O(n-i)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</summary>
+    
+    
+    
+    
+    <category term="数据结构" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="ods-java" scheme="http://example.com/tags/ods-java/"/>
+    
+  </entry>
+  
+</feed>
