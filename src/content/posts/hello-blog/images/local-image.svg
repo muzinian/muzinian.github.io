@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Local-first blog assets</title>
+  <desc id="desc">A diagram showing Markdown and images flowing through Astro into a static site.</desc>
+  <rect width="1200" height="630" rx="36" fill="#f3f0ea" />
+  <g fill="none" stroke="#282624" stroke-width="6">
+    <rect x="90" y="190" width="250" height="250" rx="24" />
+    <rect x="475" y="190" width="250" height="250" rx="24" />
+    <rect x="860" y="190" width="250" height="250" rx="24" />
+    <path d="M350 315h105m280 0h105" />
+    <path d="m430 290 25 25-25 25m385-50 25 25-25 25" />
+  </g>
+  <g fill="#282624" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">
+    <text x="215" y="300" font-size="44">Markdown</text>
+    <text x="215" y="350" font-size="30">+ images</text>
+    <text x="600" y="330" font-size="48">Astro</text>
+    <text x="985" y="300" font-size="44">Static</text>
+    <text x="985" y="350" font-size="30">GitHub Pages</text>
+  </g>
+</svg>
